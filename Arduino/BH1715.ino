@@ -34,6 +34,7 @@ void setup()
 
 void loop() 
 {
+	unsigned int data[2];
 	// Request 2 byte of data
 	Wire.requestFrom(Addr, 2);
 
@@ -44,15 +45,13 @@ void loop()
 		data[0] = Wire.read();
 		data[1] = Wire.read();
 	}
-  delay(300);
+  	delay(300);
   
 	//convert the data
 	float luminance = ((data[0] * 256) + data[1]) / 1.20;
   
-  // Output data to serial monitor
+  	// Output data to serial monitor
 	Serial.print("Ambient Light Luminance 	:");
 	Serial.print(luminance);
 	Serial.println(" lux"); 
-	}
 }
-
