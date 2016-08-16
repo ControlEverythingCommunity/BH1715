@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU: BH1715_I2CS]
 
 https://www.controleverything.com/content/Light?sku=BH1715_I2CS
 
-This Sample code can be used with Raspberry pi, Arduino and Particle.
+This Sample code can be used with Raspberry Pi, Arduino and Particle Photon, Beaglebone Black and Onion Omega.
 
 ## Java
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
