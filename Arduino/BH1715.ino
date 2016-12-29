@@ -2,7 +2,7 @@
 // Use it any way you want, profit or free, provided it fits in the licenses of its associated works.
 // BH1715
 // This code is designed to work with the BH1715_I2CS I2C Mini Module available from ControlEverything.com.
-// https://www.controleverything.com/content/Light?sku=BH1715_I2CS
+// https://www.controleverything.com/content/Light?sku=BH1715_I2CS#tabs-0-product_tabset-2
 
 #include <Wire.h>
 
